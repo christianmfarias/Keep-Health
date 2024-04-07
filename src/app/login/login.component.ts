@@ -20,7 +20,8 @@ export class LoginComponent {
   login() {
 
     //validar Login
-    const hasEmpty = !Object.values(this.loginType).every(x => !== null && x !== '');
+    const hasEmpty = !Object.values(this.loginType).every(x => x !== null && x !== '');
+
     if (hasEmpty) {
       return alert(' complete os campos.');
     }
@@ -37,7 +38,7 @@ export class LoginComponent {
       } else {
         alert('Usuário ou senha inválido.');
       }
-    } elese {
+    } else {
       alert('É sua primeira vez aqui? Faça seu cadastro!');
     }
   }
