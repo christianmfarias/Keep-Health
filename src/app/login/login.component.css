@@ -1,0 +1,49 @@
+.login-user {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  .login-user h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-user form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-user label {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .login-user input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .login-user button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.4s ease;
+  }
+  
+  .login-user button:hover {
+    background-color: #2980b9;
+  }
+  
